@@ -8,7 +8,7 @@ Sub SaveAttachmentsToFolder()
     Dim fileName As String
     
     ' Set the save folder and date format
-    saveFolder = "/Users/blaineprickett/Library/CloudStorage/OneDrive-SODEXO/Automation/"
+    saveFolder = "/Users/blaineprickett/WHERE-DO-YOU-WANT-TO-SAVE-THE-ATTACHMENTS"
     dateFormat = "yyyy-mm-dd"
     
     ' Get the current folder and loop through each email
