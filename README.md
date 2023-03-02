@@ -1,6 +1,6 @@
 # AutomateReporting
 
-This is my workflow for automating reading and writing to a daily excel report in my current role as a food service Retail Manager.
+This is my workflow for automating reading and writing to a daily excel report in my current role as a food service Retail Manager. Time is all I have. Plus I hate emailing files. 
 
 
 
@@ -11,8 +11,8 @@ One time set up -
 Daily -
 1)  Set the run time for "ScheduledPythonFiles.py" for the following morning prior to arriving to work (8:30 AM CST) and run the script. Several of the scripts convert each of the downloaded attachments from either .xls to .xlsx or .csv to .xlsx in order to work with the Openpyxl library in Python. The last script displays the newly converted file names for easy copying and pasting.  
 2)  Upon arriving to work, I copy and paste each of the newly converted file names into WriteToReport.py
-3)  Verify the data is in the correct cells in the files. Set up the cells for which you want to copy and write to. 
-4)  Run "WriteToReport.py"
+3)  Set up the cells for which you want to copy and write to. 
+4)  Run "WriteToReport.py". All data is copied and the file is saved to the OneDrive Directory / SharePoint I created for the team. 
 
 
 
