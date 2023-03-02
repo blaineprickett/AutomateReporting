@@ -1,0 +1,25 @@
+Sub SaveAttachmentsToFolder()
+    Dim olNamespace As NameSpace
+    Dim olFolder As MAPIFolder
+    Dim olMail As MailItem
+    Dim olAttachment As Attachment
+    Dim saveFolder As String
+    Dim dateFormat As String
+    Dim fileName As String
+    
+    ' Set the save folder and date format
+    saveFolder = "/Users/blaineprickett/Library/CloudStorage/OneDrive-SODEXO/Automation/"
+    dateFormat = "yyyy-mm-dd"
+    
+    ' Get the current folder and loop through each email
+    Set olNamespace = Application.GetNamespace("MAPI")
+    Set olFolder = olNamespace.GetDefaultFolder(olFolderInbox)
+    For Each olMail In olFolder.Items
+        ' Loop through each attachment in the email
+        For Each olAttachment In olMail.Attachments
+            ' Save the attachment to the specified folder with the current date added to the file name
+            fileName = saveFolder & Format(Now(), dateFormat) & " - " & olAttachment.FileName
+            olAttachment.SaveAsFile fileName
+        Next olAttachment
+    Next olMail
+End Sub
