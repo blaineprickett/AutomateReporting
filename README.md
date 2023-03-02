@@ -1,6 +1,8 @@
 # AutomateReporting
 
-This is my workflow for automating reading and writing to a daily excel report in my current role as a food service Retail Manager. Time is all I have. Plus I hate emailing files. 
+This is my workflow for automating reading and writing to a daily excel report in my current role as a food service Retail Manager. (Looking to transition into a developer role this year) Time is all I have. Plus I hate emailing files.
+
+Tools: Microsoft Outlook rules, VBA Scrips, Python, Openpyxl Library, and Microsoft OneDrive.
 
 
 
