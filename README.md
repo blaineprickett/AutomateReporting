@@ -4,8 +4,6 @@ This is my workflow for automating reading and writing to a daily excel report i
 ______________________________________________________
 Tools: Microsoft Outlook rules, VBA Scrips, Python, Openpyxl Library, and Microsoft OneDrive.
 ______________________________________________________
-______________________________________________________
-______________________________________________________
 One time set up -
 1)  I set up financial and labor excel reports to be emailed to me overnight. (Kronos Workforce Central & Blackboard) These files are delivered as .xls and .csv files.
 2)  Set up Microsoft Outlook rules to organize emails in folders on Microsoft Outlook. Enable macros to run include VBA Scripts in rules to download the attachments to specified folders in my Microsoft OneDrive account accessible from anywhere. Press Alt F11 to access Microsoft Visual Basic for Applications to set up VBA Scripts.
