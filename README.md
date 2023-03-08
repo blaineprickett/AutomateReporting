@@ -10,7 +10,7 @@ One time set up -
 3)  Verify "WriteToReport.py" will copy and paste from the correct cells in your scheduled reports to the excel workbook you wish to copy to. 
 ______________________________________________________
 Daily -
-1)  Direct conversion python script to the correct folders. These scripts are set ip to convert onky the two mest files in the folder so it dorsnt modify ebrry filr im the folder changing thr modifoed dates listed. 
+1)  Direct conversion python script to the correct folders. These scripts are set up to convert only the two most recent files in the folder so it doesn't modify every file in the folder changing the modifoed dates listed. 
 2)  Schedule "ScheduledPythonFiles.py" for the following morning prior to arriving to work (8:30 AM CST) and run the script. Several of the scripts convert each of the downloaded attachments from either .xls and .csv to .xlsx in order to work with the Openpyxl library in Python. The last script displays the newly converted file names for easy copying and pasting into "WriteToReport.py".
 3)  Upon arriving to work, I copy and paste each of the newly converted file names into "WriteToReport.py". The names are listed on my Command Line Interface after scheduling and running "ScheduledPythonFiles.py" overnight.
 4)  Run "WriteToReport.py". All data is copied to the excel report (from 6 different files in my case) and the file is saved to the OneDrive Directory / SharePoint I created for the team. Now my leadership team has access, and I didn't have to send one email. 
