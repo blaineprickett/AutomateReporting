@@ -5,7 +5,7 @@ ______________________________________________________
 Tools: Microsoft Outlook rules, VBA Scrips, Python, Openpyxl Library, and Microsoft OneDrive.
 ______________________________________________________
 One time set up -
-1)  Schedule financial and labor reports to be emailed to me overnight. (Kronos Workforce Central & Blackboard / Transact) These files are delivered as .xls and .csv file types.
+1)  Schedule financial and labor reports to be emailed overnight. (Kronos Workforce Central & Blackboard / Transact) These files are delivered as .xls and .csv file types.
 2)  Create Microsoft Outlook rules to organize emails in folders. Enable macros to run and include VBA Scripts in rules to download the attachments to specified folders in my Microsoft OneDrive account accessible from anywhere. Press Alt F11 to access Microsoft Visual Basic for Applications to set up VBA Scripts.
 3)  Verify "WriteToReport.py" will copy and paste from the correct cells in your scheduled reports to the excel workbook you wish to copy to. 
 ______________________________________________________
