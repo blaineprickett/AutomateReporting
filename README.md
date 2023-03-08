@@ -16,5 +16,5 @@ Daily -
 4)  Run "WriteToReport.py". All data is copied to the excel report (from 6 different files in my case) and the file is saved to the OneDrive Directory / SharePoint I created for the team. Now my leadership team has access, and I didn't have to send one email. 
 
 
-
+*****
 VOILA!
