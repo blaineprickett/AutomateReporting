@@ -1,4 +1,4 @@
-# AutomateReporting
+# Automate Excel Reporting w/ Outlook & Python
 
 This is my workflow for automating a daily excel report in my current role as a Retail Food Service Manager at a local university where I manage 6 different retail outlets. Time is all I have. I hate emailing files. So I've set up a system to automate reporting and save to One Drive for senior leadership access. 
 ______________________________________________________
